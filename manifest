@@ -3,7 +3,7 @@
 JVMLevel=
 LSID=urn:lsid:genepattern.org:module.analysis:00443
 author=
-commandLine=python /build/tfsites-webportal/03-loadGenome/02-loadGenome.py  -g <genome>  -o <out.filename>         
+commandLine=python /build/tfsites-webportal/03-loadGenome/03-loadGenome.py  -g <genome>  -o <out.filename>         
 cpuType=any
 description=Converts fasta file into dictionary and stores it as a pickled file. 
 documentationUrl=https://genepattern.github.io/tfsites.loadGenome/v1/
@@ -21,7 +21,7 @@ p1_default_value=
 p1_description=FASTA genome input.
 p1_fileFormat=.fasta
 p1_flag=
-p1_name=input.data
+p1_name=genome
 p1_numValues=1..1
 p1_optional=
 p1_prefix=
