@@ -13,7 +13,7 @@
 
 ## Introduction
 
-tfsites.LoadGenome converts fasta file into dictionary and stores it as a pickled file..
+tfsites.LoadGenome converts fasta file into dictionary and stores it as a pickled file to be used in subsequet tfsites modules.
 
 ## Functionality
 
@@ -50,7 +50,7 @@ TBD Describe how to get common data formats into the format needed here
   
 ## Example Data
 
-[Example input data is available on github](https://github.com/jsolvason/tfsites-webportal/NNGGAWNN-inputs/)
+Example input data is available at [https://datasets.genepattern.org/data/module_support_files/tfsites/hg38.fa ](https://datasets.genepattern.org/data/module_support_files/tfsites/hg38.fa)
     
 ## References
 

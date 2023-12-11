@@ -2,11 +2,11 @@
 #Mon Aug 21 21:11:17 UTC 2023
 JVMLevel=
 LSID=urn:lsid:genepattern.org:module.analysis:00443
-author=
+author=Joe Solvason (solvason@eng.ucsd.edu)
 commandLine=python /build/tfsites-webportal/03-loadGenome/03-loadGenome.py  -g <genome>  -o <out.filename>         
 cpuType=any
 description=Converts fasta file into dictionary and stores it as a pickled file. 
-documentationUrl=https://genepattern.github.io/tfsites.loadGenome/v1/
+documentationUrl=https://genepattern.github.io/tfsites.LoadGenome/v1/
 fileFormat=
 job.cpuCount=
 job.docker.image=genepattern/tfsites\:0.2
