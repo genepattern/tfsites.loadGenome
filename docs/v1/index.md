@@ -13,49 +13,54 @@
 
 ## Introduction
 
-tfsites.LoadGenome converts fasta file into dictionary and stores it as a pickled file to be used in subsequet tfsites modules.
+`loadGenome` converts a genome file given by the user into binary form (i.e. a pickled file). This pickled file can be used for other methods in `tfsites` that involve genome analysis. 
 
-## Functionality
-
-TBD
 
 ## Methodology
 
-TBD
+The Python tool, SeqIO, is used to convert the genome (in .fasta format) into a Pythonic dictionary. In the dictionary, each chromosome is mapped to its DNA sequence. This dictionary can then be stored as a pickled file. 
+
 
 ## Parameters
 
 <span style="color: red;">*</span> indicates required parameter
 
-- **genome**<span style="color: red;">*</span>
-    - Genome to be analyzed in fasta format.
-- **out filename**<span style="color: red;">*</span>
-    - Out file name for the pickled genome.
+### Inputs and Outputs
+
+- <span style="color: red;">*</span>**Genome Input (.fasta)**
+    - This file contains the genome that the user would like to analyze.
+- <span style="color: red;">*</span>**Pickled Genome Output (.pkl)**
+    - This file contains the binary form of a Pythonic dictionary that maps each chromosome in the genome to its sequence. 
 
 
 ## Input Files
 
-1.  genome.  fasta formatted genome file. 
-    
+1.  Genome Input (.fasta)
 
-
-## Creating Input Files from User Data
-
-TBD Describe how to get common data formats into the format needed here
+```
+>chr1
+CCTGGTGCTCCCACAAAGGAGAAGGGCTGATCACTCAAAGTTGCGAACACCAAGCTCAACAATGAGCCCTGGAAAATTTCAG...
+>chr2
+GGGGAAGCAAGGCGGAGTTGGGCAGCTCGTGTTCAATGGGTAGAGTTTCAGGCTGGGGTGATGGAAGGGTGCTGGAAATGAG...
+```
        
 ## Output Files
 
-  1.pickle: <output filename> pickle formatted dictionary.
+1.  Pickled Genome Output (.pkl)
+
+```
+a binary file cannot be previewed but it is stored as a pythonic dictionary in the following format:
+
+{'chr1':'CCTGGTGCTCCCACAAAGGAGAAGGGCTGATCACTCAAAGTTGCGAACACCAAGCTCAACAATGAGCCCTGGAAAATTTCAG', ...} 
+```
+
     
-  
 ## Example Data
 
 Example input data is available at [https://datasets.genepattern.org/data/module_support_files/tfsites/hg38.fa ](https://datasets.genepattern.org/data/module_support_files/tfsites/hg38.fa)
-    
-## References
 
-Cancer Genome Atlas Network. Comprehensive genomic characterization of head and neck squamous cell carcinomas. Nature. 2015 Jan 29;517(7536):576-82. doi: 10.1038/nature14129. PMID: 25631445; PMCID: PMC4311405.
     
 ## Version Comments
 
 - **1.0.0** (2023-01-12): Initial draft of document scaffold.
+- **1.0.1** (2024-02-02): Draft completed.
