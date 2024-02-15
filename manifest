@@ -30,7 +30,7 @@ p1_type=java.io.File
 p1_value=
 p2_MODE=
 p2_TYPE=TEXT
-p2_default_value=<input.data_basename>.pkl
+p2_default_value=<genome>.pkl
 p2_description=Contains the binary form of a Pythonic dictionary that maps each chromosome in the genome to its sequence.
 p2_fileFormat=
 p2_flag=
@@ -44,7 +44,7 @@ p2_value=
 
 privacy=public
 quality=development
-src.repo=
+src.repo=https://github.com/genepattern/tfsites.LoadGenome
 taskDoc=
 taskType=Transciption factor analysis
 userid=ted
