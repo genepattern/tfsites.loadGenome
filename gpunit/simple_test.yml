@@ -11,7 +11,7 @@ name: "tfsites.LoadGenome - Basic test"
 module: tfsites.LoadGenome
 params:
     genome: "https://datasets.genepattern.org/data/module_support_files/tfsites/hg38.fa"
-    out.filename:  "hg38.pkl"
+    pickled.genome.output.filename:  "hg38.pkl"
 assertions:
     jobStatus: success
 
