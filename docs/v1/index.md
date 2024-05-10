@@ -27,9 +27,9 @@ The Python tool, SeqIO, is used to convert the genome (in .fasta format) into a 
 
 ### Inputs and Outputs
 
-- <span style="color: red;">*</span>**Genome Input (.fasta)**
+- <span style="color: red;">*</span>**original genome (.fasta)**
     - This file contains the genome that the user would like to analyze.
-- <span style="color: red;">*</span>**Pickled Genome Output (.pkl)**
+- <span style="color: red;">*</span>**pickled genome output filename (.pkl)**
     - This file contains the binary form of a Pythonic dictionary that maps each chromosome in the genome to its sequence. 
 
 
@@ -62,5 +62,6 @@ Example input data is available at [https://datasets.genepattern.org/data/module
     
 ## Version Comments
 
-- **1.0.0** (2023-01-12): Initial draft of document scaffold.
+- **1.0.2** (2024-05-10): Parameter names updated.
 - **1.0.1** (2024-02-02): Draft completed.
+- **1.0.0** (2023-01-12): Initial draft of document scaffold.
