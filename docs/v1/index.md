@@ -18,7 +18,7 @@
 
 ## Methodology
 
-The Python tool, SeqIO, is used to convert the genome (in .fasta format) into a Pythonic dictionary. In the dictionary, each chromosome is mapped to its DNA sequence. This dictionary can then be stored as a pickled file. 
+The Python tool `SeqIO` is used to convert the genome (in .fasta format) into a Pythonic dictionary. In the dictionary, each chromosome is mapped to its DNA sequence. This dictionary can then be stored as a pickled file. 
 
 
 ## Parameters
@@ -30,7 +30,7 @@ The Python tool, SeqIO, is used to convert the genome (in .fasta format) into a 
 - <span style="color: red;">*</span>**original genome (.fasta)**
     - This file contains the genome that the user would like to analyze.
 - <span style="color: red;">*</span>**pickled genome output filename (.pkl)**
-    - This file contains the binary form of a Pythonic dictionary that maps each chromosome in the genome to its sequence. 
+    - This file contains the binary form of a Pythonic dictionary that maps each chromosome in the genome to its DNA sequence. 
 
 
 ## Input Files
