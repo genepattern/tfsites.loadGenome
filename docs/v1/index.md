@@ -13,7 +13,7 @@
 
 ## Introduction
 
-`loadGenome` converts a genome file given by the user into binary form (i.e. a pickled file). This pickled file can be used for other methods in `tfsites` that involve genome analysis. 
+`LoadGenome` converts a genome file given by the user into binary form (i.e. a pickled file). This pickled file can be used for other methods in `tfsites` that involve genome analysis. 
 
 
 ## Methodology
