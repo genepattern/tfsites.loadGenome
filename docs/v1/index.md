@@ -1,6 +1,6 @@
 # tfsites.LoadGenome v1
 
-**Author(s):** Joe Solvason  
+**Author(s):** Joe Solvason
 
 **Contact:** Joe Solvason (solvason@eng.ucsd.edu)
 
@@ -18,7 +18,7 @@
 
 ## Methodology
 
-The Python tool `SeqIO` is used to convert the genome (in .fasta format) into a Pythonic dictionary. In the dictionary, each chromosome is mapped to its DNA sequence. This dictionary can then be stored as a pickled file. 
+The tool `SeqIO` is used to convert the genome (in .fasta format) into a Pythonic dictionary. In the dictionary, each chromosome is mapped to its DNA sequence. This dictionary can then be stored as a pickled file. 
 
 
 ## Parameters
